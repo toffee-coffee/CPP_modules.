@@ -13,7 +13,7 @@ OBJ := $(SRC:%.cpp=%.o)
 
 RM := rm -rf
 
-CPPLINT := cpplint *.hpp *.cpp
+CPPLINT := cpplint *.cpp
 
 CPPLINT_CFG := CPPLINT.cfg
 CPPLINT_CFG_DIR := ../cpplint/CPPLINT.cfg
